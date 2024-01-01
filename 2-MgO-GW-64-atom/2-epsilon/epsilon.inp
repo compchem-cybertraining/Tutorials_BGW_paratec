@@ -1,0 +1,26 @@
+epsilon_cutoff      60.00  # compute eps matrix up to G^2,G'^2 < 6.25 Ry)
+wavefunction_cutoff   90.0   # same as in paratec
+number_qpoints      4 # number of q-points to compute eps(GG';q)
+number_bands     950   # number of bands in summation (cond.+valence)
+band_occupation    128*1 822*0 # band occupation
+degeneracy_check_override
+number_valence_pools 4
+
+sum_method 0              # 0: new method; 2: old band-by-band summation
+
+gcomm_matrix
+
+begin qpoints
+    0.01000000000000    0.01000000000000    0.01000000000000  1  1
+    0.00000000000000    0.00000000000000    0.50000000000000  1  0
+    0.00000000000000    0.50000000000000    0.50000000000000  1  0
+    0.50000000000000    0.50000000000000    0.50000000000000  1  0
+end
+
+
+evs     0.0000               # scissor shift (energy unit is eV)
+evdel   0.0000
+ev0     0.0000
+ecs     0.0000
+ecdel   0.0000
+ec0     0.0000

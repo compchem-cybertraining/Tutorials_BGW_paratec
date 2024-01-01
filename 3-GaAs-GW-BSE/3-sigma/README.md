@@ -3,8 +3,8 @@
 
     cp ../1-paratec/1-SCF/CD95 RHO
     cp ../1-paratec/1-SCF/VXC VXC
-    cp ../1-paratec/2-WFN/weight.dat weight.dat
-    cp ../1-paratec/2-WFN/GWR WFN_inner
+    cp ../1-paratec/2-WFN0-GW/weight.dat weight.dat
+    cp ../1-paratec/2-WFN0-GW/GWC WFN_inner
   
 
 # 2. Copy necessary files from the epsilon calculations
@@ -13,9 +13,9 @@
     cp ../2-epsilon/epsmat epsmat
 
 
-or just create links to those files
+or just create links to those files, e.g.
 
-    ln -s ../1-paratec/2-WFN/weight.dat weight.dat
+    ln -s ../1-paratec/2-WFN0-GW/weight.dat weight.dat
 
 and so on
 

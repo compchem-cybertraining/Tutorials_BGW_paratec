@@ -1,13 +1,13 @@
 
 # 1. Copy wavefunctions and weights from SCF calculations
 
-    cp ../1-paratec/2-WFN/weight.dat .
-    cp ../1-paratec/2-WFN/GWR WFN
-    cp ../1-paratec/2-WFNq/GWR WFNq
+    cp ../1-paratec/2-WFN-GW/weight.dat .
+    cp ../1-paratec/2-WFN-GW/GWC WFN
+    cp ../1-paratec/2-WFNq-GW/GWC WFNq
 
 or just create links to those files, e.g.
 
-    ln -s ../1-paratec/2-WFN/weight.dat weight.dat
+    ln -s ../1-paratec/2-WFN-GW/weight.dat weight.dat
 
 and so on
 

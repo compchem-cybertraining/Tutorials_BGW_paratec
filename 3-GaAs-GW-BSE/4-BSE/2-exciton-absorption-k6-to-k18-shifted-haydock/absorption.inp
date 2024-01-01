@@ -1,0 +1,30 @@
+# diagonalization
+
+haydock
+
+number_iterations 500
+
+
+number_val_bands_coarse 3
+number_val_bands_fine 3
+number_cond_bands_coarse 4
+number_cond_bands_fine 4
+
+coarse_grid_points 216
+use_symmetries_coarse_grid
+# use_symmetries_fine_grid
+# use_symmetries_shifted_grid
+
+screening_semiconductor
+#use_velocity
+use_momentum
+polarization 0.01 0.01 0.01
+
+gaussian_broadening 
+energy_resolution 0.05
+
+# number_eigenvalues 40000
+
+eqp_co_corrections
+
+# comm_disk
